@@ -10,7 +10,6 @@
 .header nav {
   display: flex;
   gap: 4rem;
-  margin-left: 8rem;
   padding-top: 0.8rem;
 }
 
@@ -137,6 +136,12 @@
   .home {
     flex-direction: column;
     height: auto;
+    padding: 2rem 2rem 0;
+    gap: 0;
+  }
+
+  .home img {
+    padding: 3rem;
   }
 
   .header h2 {
@@ -144,7 +149,7 @@
   }
 
   .produto > div {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .produto header {
@@ -153,11 +158,12 @@
   }
 
   .produto h3 {
-    font-size: 20pt;
+    font-size: 18pt;
+    line-height: 1.5;
   }
 
   .contato {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   .contato h2 {
@@ -165,6 +171,7 @@
   }
 
   .contato form {
+    margin-top: 0;
     min-width: 0;
     width: 100%;
   }
