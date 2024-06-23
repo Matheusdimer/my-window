@@ -50,7 +50,7 @@
 }
 
 .home h2 {
-  font-size: 34pt;
+  font-size: 30pt;
   text-align: left;
 }
 
@@ -113,4 +113,59 @@
   margin-top: 3rem;
   font-size: 28pt;
   text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding: 1rem;
+  }
+
+  .header nav {
+    margin-top: -4px;
+    gap: 2rem;
+  }
+
+  .header nav a {
+    font-size: 10pt;
+  }
+
+  .header img {
+    width: 140px;
+    height: 45px;
+  }
+
+  .home {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header h2 {
+    font-size: 20pt;
+  }
+
+  .produto > div {
+    padding: 3rem;
+  }
+
+  .produto header {
+    font-size: 22pt;
+    margin-bottom: 2rem;
+  }
+
+  .produto h3 {
+    font-size: 20pt;
+  }
+
+  .contato {
+    padding: 3rem;
+  }
+
+  .contato h2 {
+    font-size: 22pt;
+  }
+
+  .contato form {
+    min-width: 0;
+    width: 100%;
+  }
 }
